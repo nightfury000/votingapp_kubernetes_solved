@@ -6,3 +6,9 @@ and modified it to work on the Kubernetes cluster.
 
 Basically it's a solution of Kodekloud [voting-app kubernetes lab](https://kodekloud.com/courses/labs-kubernetes-crash-course/?context=youtube-ads-kubcrashcourse&utm_source=youtube&utm_medium=labs&utm_campaign=kubernetes_crash_course). And  thanks to Kodekloud for amazing lab.
 It took good amount of tries to work so I thought to upload the solution but do give it a try before going to solution.
+<details open>
+<summary>Steps</summary>
+<br>
+Git Clone it. While creating deployments and services do it one by one like first voting-app-deploy then voting-app-service in that way.
+Most probable problem is service endpoint one, that occurred to me many times, in that case check the selector labels in deployment they should match to labels in services.
+</details>
