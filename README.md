@@ -9,6 +9,6 @@ It took good amount of tries to work so I thought to upload the solution but do 
 <details open>
 <summary>Steps</summary>
 <br>
-Git Clone it. While creating deployments and services do it one by one like first voting-app-deploy then voting-app-service in that way.
+git clone https://github.com/nightfury000/votingapp_kubernetes_solved.git . While creating deployments and services do it one by one like first voting-app-deploy then voting-app-service in that way.
 Most probable problem is service endpoint one, that occurred to me many times, in that case check the selector labels in deployment they should match to labels in services.
 </details>
